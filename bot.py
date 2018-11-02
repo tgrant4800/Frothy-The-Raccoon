@@ -7,7 +7,7 @@ import time
 Client = discord.Client()
 client = commands.Bot(command_prefix = "?")
 
-chat_filter = ["TRASH"]
+chat_filter = ["TRASH", "GARBAGE"]
 bypass_list = []
 
 @client.event
@@ -28,4 +28,4 @@ async def on_message(message):
                     
         
 
-client.run("your-token")
+client.run("NTA2OTY0NzcyNzY0NTE2MzUy.Dr5nrg.GcYJS42adX6wwVgYGjXq4P-JBio")
