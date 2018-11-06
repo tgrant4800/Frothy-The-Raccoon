@@ -1,7 +1,7 @@
 from discord.ext import commands
  
  
-client = commands.Bot(command_prefix='?', case_insensitive=True)
+client = commands.Bot(command_prefix='?')
  
  
 @client.event
