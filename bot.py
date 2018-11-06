@@ -26,4 +26,4 @@ async def on_message(message):
         if 'communism' in message.content.lower():
             await message.channel.send('слава советской россии')
  
-client.run('NTA2OTY0NzcyNzY0NTE2MzUy.DsO4xQ.F-zJX1qw7a-EJRyPh516sJ-0UhQ')
+client.run('Stay away from my token >:(')
