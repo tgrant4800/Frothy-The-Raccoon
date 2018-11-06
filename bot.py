@@ -8,11 +8,6 @@ client = commands.Bot(command_prefix='?')
 async def on_ready():
     print('Bot is online and connected to Discord')
  
- @client.event
-async def on_message(message):
- message.content = message.content.lower().replace(' ', '')
-    await client.process_commands(message)
- 
 @client.event
 async def on_message(message):
     if client.user.id != message.author.id:
