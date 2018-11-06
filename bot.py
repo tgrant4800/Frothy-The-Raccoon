@@ -15,8 +15,6 @@ async def on_message(message):
  
 @client.event
 async def on_message(message):
- message.content = message.content.lower().replace(' ', '')
-    await client.process_commands(message)
     if client.user.id != message.author.id:
         if 'trash' in message.content:
             await message.channel.send('Did somebody say TRASH??')
