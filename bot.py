@@ -13,9 +13,6 @@ async def on_message(message):
     if client.user.id != message.author.id:
         if 'trash' in message.content:
             await message.channel.send('Did somebody say TRASH??')
- 
- @client.event
-async def on_message(message):
     if client.user.id != message.author.id:
         if 'book' in message.content:
             await message.channel.send('jaZ$GMBFUvetbmSER(PG&%Y*T&*GFNYGP%*NBGSUVEnGUSBN(REYbyfinvdfvaWERBSGFHAsDFBGHyJ7TYbrEvcgbTRsEBRgC *Frothy Ran Away*')
