@@ -18,7 +18,7 @@ async def on_message(message):
             await message.channel.send('jaZ$GMBFUvetbmSER(PG&%Y*T&*GFNYGP%*NBGSUVEnGUSBN(REYbyfinvdfvaWERBSGFHAsDFBGHyJ7TYbrEvcgbTRsEBRgC *Frothy Ran Away*')
     if client.user.id != message.author.id: 
         if 'garbage' in message.content.lower(): 
-            await message.channel.send(message.channel, message.author.name + ' is garbage,')
+            await message.channel.send('%s is garbage.' % message.author.mention)
     if client.user.id != message.author.id:
         if 'communist' in message.content.lower():
             await message.channel.send('слава советской россии')
