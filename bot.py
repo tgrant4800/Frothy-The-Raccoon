@@ -16,9 +16,9 @@ async def on_message(message):
     if client.user.id != message.author.id:
         if 'book' in message.content.lower():
             await message.channel.send('jaZ$GMBFUvetbmSER(PG&%Y*T&*GFNYGP%*NBGSUVEnGUSBN(REYbyfinvdfvaWERBSGFHAsDFBGHyJ7TYbrEvcgbTRsEBRgC *Frothy Ran Away*')
-    if client.user.id != message.author.id:
-        if 'garbage' in message.content.lower():
-            await message.channel.send(f'@{author_name} is garbage.')
+    if client.user.id != message.author.id: 
+        if 'garbage' in message.content.lower(): 
+            await message.channel.send('%s is garbage.')
     if client.user.id != message.author.id:
         if 'communist' in message.content.lower():
             await message.channel.send('слава советской россии')
@@ -26,4 +26,4 @@ async def on_message(message):
         if 'communism' in message.content.lower():
             await message.channel.send('слава советской россии')
  
-client.run('Stay away from my token >:(')
+client.run('NTA2OTY0NzcyNzY0NTE2MzUy.DsT4wQ.y5AP6hA-AJa9d8ObOnJYRwfhHyw')
